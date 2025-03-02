@@ -22,7 +22,7 @@ data class Formacao(
 ){
     val conteudos = mutableListOf<ConteudoEducacional>()
 
-    fun conteudoProgramatico(conteudo : ConteudoEducacional){
+    fun conteudoEducacional(conteudo : ConteudoEducacional){
         conteudos.add(conteudo)
     }
 }
@@ -63,11 +63,11 @@ fun main() {
         escolaridade = Escolaridade.TECNICO
     )
 
-    formacaoProgramador.conteudoProgramatico(conteudoEducacional1)
-    formacaoProgramador.conteudoProgramatico(conteudoEducacional2)
-    formacaoProgramador.conteudoProgramatico(conteudoEducacional3)
-    formacaoProgramador.conteudoProgramatico(conteudoEducacional4)
-    formacaoProgramador.conteudoProgramatico(conteudoEducacional5)
+    formacaoProgramador.conteudoEducacional(conteudoEducacional1)
+    formacaoProgramador.conteudoEducacional(conteudoEducacional2)
+    formacaoProgramador.conteudoEducacional(conteudoEducacional3)
+    formacaoProgramador.conteudoEducacional(conteudoEducacional4)
+    formacaoProgramador.conteudoEducacional(conteudoEducacional5)
 
     val turma = Turma(formacaoProgramador)
     turma.matricular(aluno1)

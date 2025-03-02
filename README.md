@@ -13,7 +13,7 @@ Turma
   |- Nome
   |- Nível
   |- Escolaridade
-  |- Conteúdo Programático
+  |- Conteúdo Educacional
   
 Conteúdo Educacional
   |- Nome
